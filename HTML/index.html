@@ -6,7 +6,7 @@
         <meta name="keywords" content="html, curso, programação">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <meta name="autor" content="Thiago Silva de Oliveira">
-        <link rel="stylesheet" href="style.css">
+        <!-- <link rel="stylesheet" href="style.css"> -->
         <title>Título da página</title>
     </head>
     <body>
@@ -46,17 +46,47 @@
             <hr>
             <h2>Nome: <input type="text"></h2>
             <h3>Objetivo<br>
-                <textarea name="Digite_aqui" id="obj"></textarea>
-                <h4><button style="background-color: rgb(255, 204, 0);">Confirmar</button></h4>
+                <textarea name="objetivo" id="obj"></textarea>
+                <h4><a href="form.html"><button>Confirmar</button></a></h4>
             </h3>
             <hr>
         </section>
-        <div>
-            
+        <div>            
             <img src="https://transmitter.com.br/wp-content/uploads/2021/07/oque-e-dio.jpg"> 
             <div>
-                <h6>Lorem ipsum</h6>
-                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quis expedita porro molestiae, deleniti consequatur distinctio eveniet libero, laborum necessitatibus ullam eos dolores dolorum a temporibus odio laudantium placeat esse numquam.</p>
+                <h6>Tabela HTML puro</h6>
+                <table border="1">
+                    <thead>
+                        <tr>
+                            <th>Código</th>
+                            <th>Nome</th>
+                            <th>Idade</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>00</td>
+                            <td>Thiago</td>
+                            <td>35</td>
+                        </tr>
+                        <tr>
+                            <td>01</td>
+                            <td>Alex</td>
+                            <td>36</td>
+                        </tr>
+                        <tr>
+                            <td>02</td>
+                            <td>Tom</td>
+                            <td>35</td>
+                        </tr>
+                    </tbody>
+                    <tfoot>
+                        <tr>
+                            <td colspan="2">Soma idade</td>
+                            <td>106</td>
+                        </tr>
+                    </tfoot>
+                </table>
             </div>
         </div>
         <hr>
