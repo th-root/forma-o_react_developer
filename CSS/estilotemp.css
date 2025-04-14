@@ -1,0 +1,124 @@
+/* Definir a fonte padrão, remover margens e padding */
+* {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+/* Definir a altura do HTML e do Body para 100% */
+html, body {
+    height: 100%;
+    margin: 0; /* Remover margens padrão */
+    padding: 0; /* Remover padding padrão */
+    display: flex;
+    flex-direction: column;
+}
+
+/* Garantir que a seção principal (section) ocupe o restante do espaço */
+section {
+    flex: 1; /* Preencher o espaço restante */
+    background-color: magenta;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+/* Estilo do cabeçalho */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: darkblue;
+    color: black;
+    flex-wrap: wrap;
+}
+
+/* Estilo do rodapé */
+footer {
+    background-color: rgb(21, 0, 128);
+    padding: 20px;
+    color: black;
+    font-weight: bold;
+    margin-top: auto; /* Garantir que o rodapé fique no final */
+    flex-wrap: wrap;
+}
+
+/* Estilo da navegação */
+nav {
+    position: relative;
+    margin-right: 0px;
+    display: inline-block;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    gap: 10px; /* Espaço entre os botões */
+}
+
+nav ul li {
+    display: inline;
+}
+
+nav ul li a {
+    text-decoration: none;
+    padding: 10px 20px;
+    background-color: yellow;
+    color: black;
+    display: block;
+    border-radius: 10px; /* Borda arredondada */
+    font-weight: bold;
+    transition: background 0.3s;
+}
+
+nav ul li a:hover {
+    background-color: gold;
+}
+
+/* Estilo para o conteúdo principal e figura */
+main {
+    flex: 2;
+    background-color: yellow;
+    padding: 50px;
+    width: 200px;
+}
+
+figure {
+    background-color: yellow;
+    padding: 50px;
+    width: 200px;
+    flex: 1;
+}
+
+ul {
+    right: 20px;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+/* Estilo para o título */
+h1 {
+    margin: 0;
+    left: 0px;
+    display: inline;
+    padding: 0;
+    text-align: left;
+}
+
+/* Estilo do texto principal */
+main {
+    text-align: left;
+}
+
+
+img {
+    text-align: center;
+    width: 100%;
+    height: 50%;
+}
